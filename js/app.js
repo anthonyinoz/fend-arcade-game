@@ -83,7 +83,7 @@ class Player {
     // update() method is called from within the game loop and updates the player.status
     update() {
 
-        if (player.y < 54) {
+        if (this.y < 54) {
             player.status = 'WON';
         }
         else if (this.y < 220) {
